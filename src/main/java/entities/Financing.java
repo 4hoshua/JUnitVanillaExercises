@@ -1,4 +1,7 @@
-package financiamento;
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Financing {
 
@@ -25,7 +28,7 @@ public class Financing {
     public double getIncome() {return income;}
 
     public void setIncome(double amount) {
-        validation(totalAmount, income, months);
+        validation(totalAmount, amount, months);
         this.income = amount;
     }
 

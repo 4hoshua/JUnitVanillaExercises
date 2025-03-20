@@ -1,6 +1,6 @@
 package factory;
 
-import financiamento.Financing;
+import entities.Financing;
 
 public class FinancingFactory {
 
