@@ -113,4 +113,6 @@ public class FinancingTests {
 
         Assertions.assertEquals(1000.0, fin.quote(fin.getTotalAmount()));
     }
+
+
 }
